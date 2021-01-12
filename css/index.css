@@ -43,3 +43,24 @@ body {
   height: 100%;
   width: 100%;
 }
+/* 轮播图下面的小图标 */
+.min {
+  overflow: hidden;
+}
+.min li {
+  float: left;
+  width: 4.688rem;
+  height: 5rem;
+  box-sizing: border-box;
+  padding: 0.688rem;
+}
+.min li img {
+  display: block;
+  width: 2.813rem;
+  height: 2.813rem;
+  margin: 0 auto;
+}
+.min li p {
+  margin-top: 0.063rem;
+  text-align: center;
+}
