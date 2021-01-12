@@ -1,18 +1,17 @@
-/* 版心 */
 .w {
   width: 23.438rem;
   margin: 0 auto;
-/* 背景样式 */
+}
 body {
   background-color: #fff;
 }
 /* 顶部搜索模块开始 */
-.login {
+.logo {
   height: 2.813rem;
   background: url(../imgs/2019324254324.svg) no-repeat 0 0.5rem;
   background-size: 5rem 1.875rem;
 }
-/* 搜索框样式 */
+
 .search {
   float: left;
   width: 14.688rem;
@@ -23,13 +22,12 @@ body {
   background-color: #f0f0f0;
   padding-left: 0.625rem;
 }
-.search .fa-search{
+.search i {
   font-size: 0.875rem;
   line-height: 1.875rem;
   color: #999999;
 }
-/* 顶部头像部分 */
-.user{
+.userImg {
   float: right;
   height: 1.75rem;
   width: 1.75rem;
@@ -38,56 +36,52 @@ body {
   background: url(../uploads/ia_100000002.jpg) no-repeat 0 0;
   background-size: 1.75rem;
 }
+/* 顶部搜索模块结束 */
 /* 轮播图 */
 .banner {
   height: 12.5rem;
 }
-/* 轮播图片 */
 .banner img {
   height: 100%;
   width: 100%;
 }
+/* 轮播图 */
 /* 轮播图下面的小图标 */
-.min {
+.minImg {
   overflow: hidden;
 }
-.min li {
+.minImg li {
   float: left;
   width: 4.688rem;
   height: 5rem;
   box-sizing: border-box;
   padding: 0.688rem;
 }
-.min li img {
+.minImg li img {
   display: block;
   width: 2.813rem;
   height: 2.813rem;
   margin: 0 auto;
 }
-.min li p {
+.minImg li p {
   margin-top: 0.063rem;
   text-align: center;
 }
-.min li p:hover{
-  cursor: pointer;
-  color: palegreen;
-}
-/* 主题折扣样式 */
-.zhu {
+/* 轮播图下面的小图标 */
+/* 主题折扣 */
+.Discount {
   margin-top: 0.625rem;
   overflow: hidden;
 }
-/* 标题样式 */
-.zhu h1 {
+.Discount h1 {
   margin: 0.313rem 0;
   font-weight: 700;
   font-size: 1.25rem;
 }
-.zhuti {
+.DiscountNav {
   width: 625rem;
 }
-/* 各个图片信息样式 */
-.zhuti li {
+.DiscountNav li {
   position: relative;
   float: left;
   margin-right: 0.625rem;
@@ -97,40 +91,38 @@ body {
   border-radius: 0.313rem;
   overflow: hidden;
 }
-/* 图片样式 */
-.zhuti li img {
+.DiscountNav li img {
   width: 100%;
 }
-.zhuti li p {
+.DiscountNav li p {
   font-size: 0.875rem;
   font-weight: 700;
   padding: 0.313rem;
 }
-.zhuti li em {
+.DiscountNav li em {
   position: absolute;
   bottom: 0.625rem;
   left: 0.313rem;
 }
-.zhuti li em i {
+.DiscountNav li em i {
   color: #f00;
 }
 /* 主题折扣 */
 /* 精选玩乐 */
-.jing {
+.play {
   margin-top: 0.625rem;
   overflow: hidden;
 }
-/* 标题样式 */
-.jing h1 {
+.play h1 {
   margin: 0.313rem 0;
   font-size: 1.25rem;
   font-weight: 700;
 }
-.jingxuan {
+.playNav {
   width: 100%;
   margin: 0 auto;
 }
-.jingxuan li {
+.playNav li {
   position: relative;
   float: left;
   width: 7.313rem;
@@ -143,10 +135,10 @@ body {
   overflow: hidden;
   border: 1px solid #e0e0e0;
 }
-.jingxuan li a {
+.playNav li a {
   font-size: 0.75rem;
 }
-.jingxuan li i {
+.playNav li i {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -154,20 +146,20 @@ body {
   height: 1.563rem;
   width: 1.875rem;
 }
-.jingxuan li i img {
+.playNav li i img {
   width: 1.875rem;
   height: 1.563rem;
 }
-.jingxuan li:nth-child(3n) {
+.playNav li:nth-child(3n) {
   margin-right: 0;
 }
+/* 精选玩乐 */
 /* 精选攻略 */
-.gong {
+.Strategy {
   margin-bottom: 1.438rem;
   overflow: hidden;
 }
-/* 标题样式 */
-.gongl h1 {
+.StrategyTop h1 {
   float: left;
   margin: 0.313rem 0;
   font-size: 1.25rem;
@@ -185,50 +177,44 @@ body {
   background-color: #02db94;
   border-radius: 0.813rem;
   box-sizing: border-box;
-  cursor: pointer;
 }
-.gonglue {
+.StrategyNav {
   width: 100%;
   overflow: hidden;
 }
-.gonglue li {
+.StrategyNav li {
   float: left;
   width: 10.938rem;
   height: 14.063rem;
   margin-right: 1.563rem;
   margin-bottom: 0.313rem;
 }
-.gonglue li:nth-child(2n) {
+.StrategyNav li:nth-child(2n) {
   margin: 0;
 }
-.gonglue li img {
-  cursor: pointer;
+.StrategyNav li img {
   height: 10.313rem;
   width: 100%;
 }
-.gonglue li p {
+.StrategyNav li p {
   font-size: 0.813rem;
   font-weight: 700;
 }
-.gonglue li .user {
+.StrategyNav li .user {
   line-height: 1.125rem;
 }
-.gonglue li .user img {
+.StrategyNav li .user img {
   height: 1.125rem;
   width: 1.125rem;
   border-radius: 0.313rem;
 }
-.gonglue li .user em {
+.StrategyNav li .user em {
   color: #999999;
 }
-.gong h2 {
+.Strategy h2 {
   font-size: 0.875rem;
-  cursor: pointer;
   color: #0dd4ab;
   text-align: center;
-}
-.gong h2:hover{
-  color: purple;
 }
 /* 精选攻略 */
 /* 尾部模块 */
@@ -248,9 +234,5 @@ footer ul li {
 footer p {
   color: #544641;
   text-align: center;
-}
-footer p:hover{
-  cursor: pointer;
-  color: #f00;
 }
 /* 尾部模块 */

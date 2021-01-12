@@ -1,191 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 引入font字体图标 -->
-  <link rel="stylesheet" href="./font/css/font-awesome.css">
-  <!-- 引入公共样式 -->
-  <link rel="stylesheet" href="./css/base.css">
-  <!-- 引入css样式-->
-  <link rel="stylesheet" href="./css/index.css">
-  <title>穷游官网</title>
-</head>
-
-<body>
-  <!-- 头部模块开始 -->
-  <header class="w">
-    <div class="login">
-      <div class="search">
-        <div class="fa fa-search">搜索目的地、游记攻略等</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./font/css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>QGame</title>
+  </head>
+  <body>
+    <!-- 顶部 -->
+    <header class="w">
+      <div class="logo">
+        <div class="search">
+          <i class="fa fa-search"> 搜索目的地 游记攻略等 </i>
+        </div>
+        <div class="userImg"></div>
       </div>
-      <div class="user"></div>
+    </header>
+    <!-- 顶部 -->
+    <!-- 轮播图 -->
+    <div class="banner w">
+      <!-- 这个地方是轮播图 -->
+      <img src="./uploads/ia_100000004.jpg" alt="" />
     </div>
-  </header>
-  <!-- 轮播图 部分-->
-  <div class="banner w">
-    <img src="./uploads/ia_100000004.jpg" alt="" />
-  </div>
-  <!-- 轮播图下面的小图标 -->
-  <ul class="min w">
-    <li>
-      <img src="./uploads/ia_100000038.jpg" alt="" />
-      <p>锦囊</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000039.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000040.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000041.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000042.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000043.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000044.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000045.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000046.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-    <li>
-      <img src="./uploads/ia_100000047.jpg" alt="" />
-      <p>行程助手</p>
-    </li>
-  </ul>
-  <!--主题折扣-->
-  <div class="zhu w">
-    <h1>主打折扣</h1>
-    <ul class="zhuti">
+    <!-- 轮播图 -->
+    <!-- 轮播图下面的小图标 -->
+    <ul class="minImg w">
       <li>
-        <img src="./uploads/ia_100000005.jpg" alt="" />
-        <p><a href="javascript:;"> 【枫叶特季惠】上海/杭州/南京/常州直... </a></p>
-        <em><i>799</i> 元起</em>
+        <img src="./uploads/ia_100000038.jpg" alt="" />
+        <p>行程助手</p>
       </li>
       <li>
-        <img src="./uploads/ia_100000006.jpg" alt="" />
-        <p><a href="javascript:;"> 【枫叶特季惠】上海/杭州/南京/常州直... </a></p>
-        <em><i>799</i> 元起</em>
+        <img src="./uploads/ia_100000039.jpg" alt="" />
+        <p>行程助手</p>
       </li>
       <li>
-        <img src="./uploads/ia_100000007.jpg" alt="" />
-        <p><a href="javascript:;"> 【枫叶特季惠】上海/杭州/南京/常州直... </a></p>
-        <em><i>799</i> 元起</em>
+        <img src="./uploads/ia_100000040.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000041.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000042.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000043.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000044.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000045.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000046.jpg" alt="" />
+        <p>行程助手</p>
+      </li>
+      <li>
+        <img src="./uploads/ia_100000047.jpg" alt="" />
+        <p>行程助手</p>
       </li>
     </ul>
-  </div>
-  <!-- 精选玩乐 -->
-  <div class="jing w">
-    <h1>精选玩乐</h1>
-    <ul class="jingxuan">
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000009.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000010.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000011.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000012.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000013.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000014.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000015.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000016.jpg" alt="" /></i>
-      </li>
-      <li>
-        <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000017.jpg" alt="" /></i>
-      </li>
-    </ul>
-  </div>
-  <!-- 精选攻略 -->
-  <div class="gong w">
-    <div class="gongl">
-      <h1>精选攻略</h1>
-      <a class="Tips fa fa-exclamation-circle">
-        出境游安全提示
-        <i class="fa fa-angle-right"></i>
-      </a>
+    <!-- 轮播图下面的小图标 -->
+    <!--主题折扣-->
+    <div class="Discount w">
+      <h1>主打折扣</h1>
+      <ul class="DiscountNav">
+        <li>
+          <img src="./uploads/ia_100000005.jpg" alt="" />
+          <p><a href="javascript:;"> 【枫叶特季惠】上海/杭州/南京/常州直... </a></p>
+          <em><i>799</i> 元起</em>
+        </li>
+        <li>
+          <img src="./uploads/ia_100000006.jpg" alt="" />
+          <p><a href="javascript:;"> 【枫叶特季惠】上海/杭州/南京/常州直... </a></p>
+          <em><i>799</i> 元起</em>
+        </li>
+        <li>
+          <img src="./uploads/ia_100000007.jpg" alt="" />
+          <p><a href="javascript:;"> 【枫叶特季惠】上海/杭州/南京/常州直... </a></p>
+          <em><i>799</i> 元起</em>
+        </li>
+      </ul>
     </div>
-    <ul class="gonglue">
-      <li>
-        <img src="./uploads/ia_undefined (15).jpg" alt="" />
-        <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
-        <div class="user">
-          <img src="./uploads/ia_undefined (24).jpg" alt="" />
-          <em>尘尘与青爷旅食记</em>
-          <i class="fa fa-heart">603</i>
-        </div>
-      </li>
-      <li>
-        <img src="./uploads/ia_undefined (39).jpg" alt="" />
-        <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
-        <div class="user">
-          <img src="./uploads/ia_undefined (24).jpg" alt="" />
-          <em>尘尘与青爷旅食记</em>
-          <i class="fa fa-heart">603</i>
-        </div>
-      </li>
-      <li>
-        <img src="./uploads/ia_undefined (43).jpg" alt="" />
-        <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
-        <div class="user">
-          <img src="./uploads/ia_undefined (24).jpg" alt="" />
-          <em>尘尘与青爷旅食记</em>
-          <i class="fa fa-heart">603</i>
-        </div>
-      </li>
-      <li>
-        <img src="./uploads/ia_undefined (44).jpg" alt="" />
-        <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
-        <div class="user">
-          <img src="./uploads/ia_undefined (24).jpg" alt="" />
-          <em>尘尘与青爷旅食记</em>
-          <i class="fa fa-heart">603</i>
-        </div>
-      </li>
-    </ul>
-    <h2>加载更多内容</h2>
-  </div>
-  <!-- 尾部模块 -->
-  <footer class="w">
-    <ul>
-      <li>手机版</li>
-      <li>电脑版</li>
-      <li>APP</li>
-      <li>意见反馈</li>
-    </ul>
-    <p>
-      2004-2019 @北京穷游天下科技发展有限公司<br />
-      京ICP备120003524号<i> | </i>电话 010 64554669
-    </p>
-  </footer>
-</body>
-
+    <!--主题折扣-->
+    <!-- 精选玩乐 -->
+    <div class="play w">
+      <h1>精选玩乐</h1>
+      <ul class="playNav">
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000009.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000010.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000011.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000012.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000013.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000014.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000015.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000016.jpg" alt="" /></i>
+        </li>
+        <li>
+          <a href="javascript:;">特价机票</a><i><img src="./imgs/ia_100000017.jpg" alt="" /></i>
+        </li>
+      </ul>
+    </div>
+    <!-- 精选玩乐 -->
+    <!-- 精选攻略 -->
+    <div class="Strategy w">
+      <div class="StrategyTop">
+        <h1>精选攻略</h1>
+        <a class="Tips fa fa-exclamation-circle">
+          出境游安全提示
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+      <ul class="StrategyNav">
+        <li>
+          <img src="./uploads/ia_undefined (15).jpg" alt="" />
+          <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
+          <div class="user">
+            <img src="./uploads/ia_undefined (24).jpg" alt="" />
+            <em>尘尘与青爷旅食记</em>
+            <i class="fa fa-heart">603</i>
+          </div>
+        </li>
+        <li>
+          <img src="./uploads/ia_undefined (39).jpg" alt="" />
+          <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
+          <div class="user">
+            <img src="./uploads/ia_undefined (24).jpg" alt="" />
+            <em>尘尘与青爷旅食记</em>
+            <i class="fa fa-heart">603</i>
+          </div>
+        </li>
+        <li>
+          <img src="./uploads/ia_undefined (43).jpg" alt="" />
+          <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
+          <div class="user">
+            <img src="./uploads/ia_undefined (24).jpg" alt="" />
+            <em>尘尘与青爷旅食记</em>
+            <i class="fa fa-heart">603</i>
+          </div>
+        </li>
+        <li>
+          <img src="./uploads/ia_undefined (44).jpg" alt="" />
+          <p><a href="JavaScript:;">2019墨西哥亡灵节最全攻略从《寻梦环游记》知道了...</a></p>
+          <div class="user">
+            <img src="./uploads/ia_undefined (24).jpg" alt="" />
+            <em>尘尘与青爷旅食记</em>
+            <i class="fa fa-heart">603</i>
+          </div>
+        </li>
+      </ul>
+      <h2>加载更多内容</h2>
+    </div>
+    <!-- 精选攻略 -->
+    <!-- 尾部模块 -->
+    <footer class="w">
+      <ul>
+        <li>手机版</li>
+        <li>电脑版</li>
+        <li>APP</li>
+        <li>意见反馈</li>
+      </ul>
+      <p>
+        2004-2019 @北京穷游天下科技发展有限公司<br />
+        京ICP备120003524号<i> | </i>电话 010 64554669
+      </p>
+    </footer>
+    <!-- 尾部模块 -->
+  </body>
 </html>
