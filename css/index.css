@@ -150,11 +150,11 @@ body {
   margin-right: 0;
 }
 /* 精选攻略 */
-.Strategy {
+.gong {
   margin-bottom: 1.438rem;
   overflow: hidden;
 }
-.StrategyTop h1 {
+.gongl h1 {
   float: left;
   margin: 0.313rem 0;
   font-size: 1.25rem;
@@ -206,9 +206,28 @@ body {
 .StrategyNav li .user em {
   color: #999999;
 }
-.Strategy h2 {
+.gong h2 {
   font-size: 0.875rem;
   color: #0dd4ab;
   text-align: center;
 }
 /* 精选攻略 */
+/* 尾部模块 */
+footer {
+  height: 5.688rem;
+  background-color: #2d3741;
+}
+footer ul li {
+  float: left;
+  height: 2.625rem;
+  width: 5.75rem;
+  font-size: 0.875rem;
+  color: #e0e0e0;
+  text-align: center;
+  line-height: 2.625rem;
+}
+footer p {
+  color: #544641;
+  text-align: center;
+}
+/* 尾部模块 */
