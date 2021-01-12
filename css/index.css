@@ -64,6 +64,10 @@ body {
   margin-top: 0.063rem;
   text-align: center;
 }
+.min li p:hover{
+  cursor: pointer;
+  color: palegreen;
+}
 /* 主题折扣 */
 .zhu {
   margin-top: 0.625rem;
