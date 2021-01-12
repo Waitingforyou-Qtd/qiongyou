@@ -1,15 +1,23 @@
-.w{
-  width: 22.75rem;
+.w {
+  width: 23.438rem;
   margin: 0 auto;
 }
 body {
   background-color: #fff;
 }
-.login{
-  height: 2.5rem;
+/* 顶部搜索模块开始 */
+.login {
+  height: 2.813rem;
   background: url(../imgs/2019324254324.svg) no-repeat 0 0.5rem;
   background-size: 5rem 1.875rem;
 }
-.search{
-
+.search {
+  float: left;
+  width: 14.688rem;
+  height: 1.875rem;
+  margin: 0.5rem 0.563rem;
+  margin-left: 5.625rem;
+  border-radius: 0.938rem;
+  background-color: #f0f0f0;
+  padding-left: 0.625rem;
 }
