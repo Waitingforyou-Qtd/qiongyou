@@ -104,3 +104,48 @@ body {
   color: #f00;
 }
 /* 主题折扣 */
+/* 精选玩乐 */
+.jing {
+  margin-top: 0.625rem;
+  overflow: hidden;
+}
+.jing h1 {
+  margin: 0.313rem 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.jingxuan {
+  width: 100%;
+  margin: 0 auto;
+}
+.jingxuan li {
+  position: relative;
+  float: left;
+  width: 7.313rem;
+  height: 2.375rem;
+  box-sizing: border-box;
+  border-radius: 0.313rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.625rem;
+  padding: 0.313rem 0 0 0.313rem;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+.jingxuan li a {
+  font-size: 0.75rem;
+}
+.jingxuan li i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  height: 1.563rem;
+  width: 1.875rem;
+}
+.jingxuan li i img {
+  width: 1.875rem;
+  height: 1.563rem;
+}
+.jingxuan li:nth-child(3n) {
+  margin-right: 0;
+}
