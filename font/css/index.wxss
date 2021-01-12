@@ -1,0 +1,26 @@
+header {
+  height: 45px;
+  display: flex;
+}
+header a.logo {
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a.logo img {
+  width: 64px;
+}
+header .search {
+  flex: 1;
+}
+header a.user {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a.user img {
+  width: 28px;
+  height: 28px;
+}
