@@ -64,3 +64,43 @@ body {
   margin-top: 0.063rem;
   text-align: center;
 }
+/* 主题折扣 */
+.zhu {
+  margin-top: 0.625rem;
+  overflow: hidden;
+}
+.zhu h1 {
+  margin: 0.313rem 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.zhuti {
+  width: 625rem;
+}
+.zhuti li {
+  position: relative;
+  float: left;
+  margin-right: 0.625rem;
+  width: 145px;
+  height: 11.25rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.313rem;
+  overflow: hidden;
+}
+.zhuti li img {
+  width: 100%;
+}
+.zhuti li p {
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 0.313rem;
+}
+.zhuti li em {
+  position: absolute;
+  bottom: 0.625rem;
+  left: 0.313rem;
+}
+.zhuti li em i {
+  color: #f00;
+}
+/* 主题折扣 */
