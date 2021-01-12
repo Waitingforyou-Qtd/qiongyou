@@ -173,37 +173,37 @@ body {
   border-radius: 0.813rem;
   box-sizing: border-box;
 }
-.StrategyNav {
+.gonglue {
   width: 100%;
   overflow: hidden;
 }
-.StrategyNav li {
+.gonglue li {
   float: left;
   width: 10.938rem;
   height: 14.063rem;
   margin-right: 1.563rem;
   margin-bottom: 0.313rem;
 }
-.StrategyNav li:nth-child(2n) {
+.gonglue li:nth-child(2n) {
   margin: 0;
 }
-.StrategyNav li img {
+.gonglue li img {
   height: 10.313rem;
   width: 100%;
 }
-.StrategyNav li p {
+.gonglue li p {
   font-size: 0.813rem;
   font-weight: 700;
 }
-.StrategyNav li .user {
+.gonglue li .user {
   line-height: 1.125rem;
 }
-.StrategyNav li .user img {
+.gonglue li .user img {
   height: 1.125rem;
   width: 1.125rem;
   border-radius: 0.313rem;
 }
-.StrategyNav li .user em {
+.gonglue li .user em {
   color: #999999;
 }
 .gong h2 {
