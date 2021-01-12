@@ -230,4 +230,8 @@ footer p {
   color: #544641;
   text-align: center;
 }
+footer p:hover{
+  cursor: pointer;
+  color: #f00;
+}
 /* 尾部模块 */
