@@ -1,15 +1,15 @@
 .w{
-  width: 15rem;
+  width: 22.75rem;
   margin: 0 auto;
 }
 body {
   background-color: #fff;
 }
 .login{
-  height: 1.25rem;
+  height: 2.5rem;
   background: url(../imgs/2019324254324.svg) no-repeat 0 0.5rem;
   background-size: 5rem 1.875rem;
 }
 .search{
-  
+
 }
