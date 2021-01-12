@@ -172,6 +172,7 @@ body {
   background-color: #02db94;
   border-radius: 0.813rem;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .gonglue {
   width: 100%;
@@ -188,6 +189,7 @@ body {
   margin: 0;
 }
 .gonglue li img {
+  cursor: pointer;
   height: 10.313rem;
   width: 100%;
 }
@@ -211,6 +213,9 @@ body {
   cursor: pointer;
   color: #0dd4ab;
   text-align: center;
+}
+.gong h2:hover{
+  color: purple;
 }
 /* 精选攻略 */
 /* 尾部模块 */
