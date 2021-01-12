@@ -97,6 +97,7 @@ body {
   border-radius: 0.313rem;
   overflow: hidden;
 }
+/* 图片样式 */
 .zhuti li img {
   width: 100%;
 }
@@ -119,6 +120,7 @@ body {
   margin-top: 0.625rem;
   overflow: hidden;
 }
+/* 标题样式 */
 .jing h1 {
   margin: 0.313rem 0;
   font-size: 1.25rem;
