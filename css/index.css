@@ -28,6 +28,7 @@ body {
   line-height: 1.875rem;
   color: #999999;
 }
+/* 顶部头像部分 */
 .user{
   float: right;
   height: 1.75rem;
@@ -41,6 +42,7 @@ body {
 .banner {
   height: 12.5rem;
 }
+/* 轮播图片 */
 .banner img {
   height: 100%;
   width: 100%;
@@ -70,7 +72,7 @@ body {
   cursor: pointer;
   color: palegreen;
 }
-/* 主题折扣 */
+/* 主题折扣样式 */
 .zhu {
   margin-top: 0.625rem;
   overflow: hidden;
