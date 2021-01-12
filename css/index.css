@@ -21,3 +21,17 @@ body {
   background-color: #f0f0f0;
   padding-left: 0.625rem;
 }
+.search .fa-search{
+  font-size: 0.875rem;
+  line-height: 1.875rem;
+  color: #999999;
+}
+.user{
+  float: right;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin-top: 0.563rem;
+  border-radius: 0.875rem;
+  background: url(../uploads/ia_100000002.jpg) no-repeat 0 0;
+  background-size: 1.75rem;
+}
