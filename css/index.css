@@ -35,3 +35,11 @@ body {
   background: url(../uploads/ia_100000002.jpg) no-repeat 0 0;
   background-size: 1.75rem;
 }
+/* 轮播图 */
+.banner {
+  height: 12.5rem;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+}
