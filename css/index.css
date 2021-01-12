@@ -208,6 +208,7 @@ body {
 }
 .gong h2 {
   font-size: 0.875rem;
+  cursor: pointer;
   color: #0dd4ab;
   text-align: center;
 }
